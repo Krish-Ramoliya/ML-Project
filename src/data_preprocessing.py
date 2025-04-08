@@ -2,7 +2,7 @@ import pandas as pd
 
 def preprocess_data():
     # Load the dataset
-    data = pd.read_csv("../dataset/Mall_Customers.csv")
+    data = pd.read_csv("dataset/Mall_Customers.csv")
     
     # Perform preprocessing (e.g., handling missing values, encoding)
     data = data.dropna()  # Example: Drop missing values
