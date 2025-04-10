@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # type: ignore
 
 def preprocess_data():
     # Load the dataset
